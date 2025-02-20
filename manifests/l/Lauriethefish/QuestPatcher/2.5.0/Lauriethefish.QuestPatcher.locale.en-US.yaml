@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.0 using InputObject 🤖 $debug=QUSU.CRLF..7-2-10
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: Lauriethefish.QuestPatcher
 PackageVersion: 2.5.0
@@ -23,11 +23,19 @@ Tags:
 - modding
 - oculus-quest
 - vr
-# Agreements:
-# ReleaseNotes:
+ReleaseNotes: |-
+  Changelog
+  - Fixed installing modded APK on v51.
+  - (Added support for APK alignment)
+  - (Added support for v2 signatures)
+  Available Files
+  - QuestPatcher-windows.exe - Windows automatic installer.
+  - QuestPatcher-windows-standalone.zip - Windows standalone executable.
+  - QuestPatcher-ubuntu.zip - Ubuntu standalone executable.
+  - QuestPatcher-mac.dmg - DMG for installation on macOS.
 ReleaseNotesUrl: https://github.com/Lauriethefish/QuestPatcher/releases/tag/2.5.0
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.2.0
+ManifestVersion: 1.9.0

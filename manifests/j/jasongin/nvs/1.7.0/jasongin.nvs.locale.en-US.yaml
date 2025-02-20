@@ -1,11 +1,11 @@
-# Created with YamlCreate.ps1 v2.2.4 $debug=MDSU.CRLF.7-3-4.Win32NT
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: jasongin.nvs
 PackageVersion: 1.7.0
 PackageLocale: en-US
 Publisher: Jason Ginchereau
-PublisherUrl: https://github.com/jasongin/
+PublisherUrl: https://github.com/jasongin
 PublisherSupportUrl: https://github.com/jasongin/nvs/issues
 # PrivacyUrl:
 Author: Jason Ginchereau
@@ -20,11 +20,13 @@ Description: Node Version Switcher
 Moniker: nvs
 Tags:
 - nvs
-# Agreements:
-# ReleaseNotes:
+ReleaseNotes: |-
+  - Fix PowerShell prompt conflict (#254)
+  - Fix PowerShell login issue on Linux (#271)
+  - Fix HTTP agent proxy issue (#248)
 ReleaseNotesUrl: https://github.com/jasongin/nvs/releases/tag/v1.7.0
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.4.0
+ManifestVersion: 1.9.0

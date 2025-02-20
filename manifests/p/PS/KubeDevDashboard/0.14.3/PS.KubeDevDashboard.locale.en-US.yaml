@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.0 using InputObject 🤖 $debug=QUSU.CRLF..7-2-8
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: PS.KubeDevDashboard
 PackageVersion: 0.14.3
@@ -19,11 +19,14 @@ ShortDescription: Dev Desktop Client for KubeCtl
 # Description:
 # Moniker:
 # Tags:
-# Agreements:
-# ReleaseNotes:
+ReleaseNotes: |-
+  Commits
+  - 0c80d0a: Use Yarn Resolutions
+  - 9d73c78: Start/Stop Deployments
+  - 8ff1c970: View Deployments
 ReleaseNotesUrl: https://github.com/prsh9/kubectl-dashboard/releases/tag/v0.14.3
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.2.0
+ManifestVersion: 1.9.0
