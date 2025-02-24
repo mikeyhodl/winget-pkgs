@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.2.0 using InputObject 🤖 $debug=QUSU.CRLF..7-2-10
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.2.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
 
 PackageIdentifier: Ombrelin.PlexRichPresence
 PackageVersion: 2.0.8
@@ -22,11 +22,15 @@ Tags:
 - discord
 - java
 - plex
-# Agreements:
-# ReleaseNotes:
+ReleaseNotes: |-
+  - Updated dependencies
+  - Bug fixes : correct handling of missing or invalid PLEX token
+  - New feature : start the app minimized with the "--minimized" CLI argUpdated dependencies
+  - Bug fixes : correct handling of missing or invalid PLEX token
+  - New feature : start the app minimized with the "--minimized" CLI arg
 ReleaseNotesUrl: https://github.com/Ombrelin/plex-rich-presence/releases/tag/2.0.8
 # PurchaseUrl:
 # InstallationNotes:
 # Documentations:
 ManifestType: defaultLocale
-ManifestVersion: 1.2.0
+ManifestVersion: 1.9.0

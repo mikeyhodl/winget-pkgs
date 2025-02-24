@@ -1,5 +1,5 @@
-# Created with Komac v1.9.1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+# Created with YamlCreate.ps1 v2.4.1 Dumplings Mod $debug=QUSU.CRLF.7-4-2.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
 
 PackageIdentifier: OpenJS.NodeJS
 PackageVersion: 20.5.0
@@ -14,7 +14,9 @@ Commands:
 - nodevars
 - npm
 - npx
-ReleaseDate: 2023-07-20
+FileExtensions:
+- js
+ReleaseDate: 2023-07-19
 ElevationRequirement: elevatesSelf
 Installers:
 - Architecture: x86
@@ -30,4 +32,4 @@ Installers:
   InstallerSha256: 04A02DDB479F8FB13C2106289C9E91A4569DB299CF284DAD139BCB2C4654A405
   ProductCode: '{2A2969C5-E1BF-4F95-85F4-A2E9B25F3810}'
 ManifestType: installer
-ManifestVersion: 1.4.0
+ManifestVersion: 1.6.0
